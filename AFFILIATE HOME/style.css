@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+     padding: 0; 
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff4500;
+}
+
+/* Main Page Content */
+.main-content {
+    padding: 100px 25px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.main-content p {
+    font-size: 20px;
+    color: #666;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff6347;
+}
+
+/* Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container .cta-btn {
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container .cta-btn:hover {
+    background-color: #ff6347;
+}
+
+/* FAQ Section */
+.faq-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.faq-container h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    color: #ff4500;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Contact Us Section */
+.contact-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.contact-container p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Product Section */
+.product-section {
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.product {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 24px;
+    color: #ff4500;
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+}
